@@ -59,7 +59,7 @@ function App() {
 
   return (
     <>
-      <Router>
+      <Router basename="/textEditor">
         <Navbar
           title="textEditor"
           mode={mode}
